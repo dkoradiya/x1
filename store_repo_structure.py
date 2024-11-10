@@ -188,7 +188,7 @@ def get_repository(owner='dkoradiya'):
     try:
         g = Github(GITHUB_TOKEN)
         # Get the authenticated user's current repository (repo_name is dynamic)
-        repo = g.get_repo(f'{owner}/{get_current_repo_name()}')
+        repo = "x1"
         return repo
     except Exception as e:
         logging.error(f"Error fetching repository: {e}")
